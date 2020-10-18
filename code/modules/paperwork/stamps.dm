@@ -16,11 +16,11 @@
 	icon_state = "stamp-cap"
 
 /obj/item/stamp/hop
-	name = "head of personnel's rubber stamp"
+	name = "Seneschal's rubber stamp"
 	icon_state = "stamp-hop"
 
 /obj/item/stamp/hos
-	name = "head of security's rubber stamp"
+	name = "Commissar's rubber stamp"
 	icon_state = "stamp-hos"
 
 /obj/item/stamp/ward
@@ -28,7 +28,7 @@
 	icon_state = "stamp-ward"
 
 /obj/item/stamp/ce
-	name = "chief engineer's rubber stamp"
+	name = "Magos's rubber stamp"
 	icon_state = "stamp-ce"
 
 /obj/item/stamp/rd
@@ -36,7 +36,7 @@
 	icon_state = "stamp-rd"
 
 /obj/item/stamp/cmo
-	name = "chief medical officer's rubber stamp"
+	name = "Sister Hospitaller's rubber stamp"
 	icon_state = "stamp-cmo"
 
 /obj/item/stamp/denied

@@ -71,15 +71,15 @@
 
 
 /obj/item/clothing/under/rank/head_of_personnel
-	desc = "It's a jumpsuit worn by someone who works in the position of \"Head of Personnel\"."
-	name = "head of personnel's jumpsuit"
+	desc = "It's a jumpsuit worn by someone who works in the position of \"Seneschal\"."
+	name = "Seneschal's jumpsuit"
 	icon_state = "hop"
 	item_state = "b_suit"
 	worn_state = "hop"
 
 /obj/item/clothing/under/rank/head_of_personnel_whimsy
 	desc = "A blue jacket and red tie, with matching red cuffs! Snazzy. Wearing this makes you feel more important than your job title does."
-	name = "head of personnel's suit"
+	name = "Seneschal's suit"
 	icon_state = "hopwhimsy"
 	item_state = "b_suit"
 	worn_state = "hopwhimsy"

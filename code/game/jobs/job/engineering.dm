@@ -49,7 +49,7 @@
 
 	total_positions = 0
 	spawn_positions = 0
-	supervisors = "the chief engineer"
+	supervisors = "the Magos"
 	selection_color = "#5b4d20"
 	economic_modifier = 5
 	minimal_player_age = 7

@@ -1,5 +1,5 @@
 /datum/job/hos
-	title = "Head of Security"
+	title = "Commissar"
 	head_position = 1
 	department = "Security"
 	department_flag = SEC|COM
@@ -33,7 +33,7 @@
 
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of security"
+	supervisors = "the Commissar"
 	selection_color = "#601c1c"
 	economic_modifier = 5
 	access = list(access_security, access_eva, access_sec_doors, access_brig, access_armory, access_maint_tunnels, access_morgue, access_external_airlocks)
@@ -48,7 +48,7 @@
 
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the head of security"
+	supervisors = "the Commissar"
 	selection_color = "#601c1c"
 //	alt_titles = list("Forensic Technician" = /decl/hierarchy/outfit/job/security/detective/forensic)
 	economic_modifier = 5
@@ -64,7 +64,7 @@
 
 	total_positions = 4
 	spawn_positions = 4
-	supervisors = "the head of security"
+	supervisors = "the Commissar"
 	selection_color = "#601c1c"
 //	alt_titles = list("Junior Officer")
 	economic_modifier = 4

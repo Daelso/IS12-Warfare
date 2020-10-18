@@ -1,9 +1,9 @@
 Captain=1
-Head of Personnel=1
-Head of Security=1
-Chief Engineer=1
+Seneschal=1
+Commissar=1
+Magos=1
 Research Director=1
-Chief Medical Officer=1
+Sister Hospitaller=1
 
 Station Engineer=5
 Roboticist=1

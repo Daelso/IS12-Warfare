@@ -51,7 +51,7 @@
 	access = access_medical
 
 /decl/hierarchy/supply_pack/medical/cmogear
-	name = "Chief medical officer equipment"
+	name = "Sister Hospitaller equipment"
 	contains = list(/obj/item/storage/belt/medical,
 					/obj/item/device/radio/headset/heads/cmo,
 					/obj/item/clothing/under/rank/chief_medical_officer,
@@ -69,7 +69,7 @@
 					/obj/item/reagent_containers/syringe)
 	cost = 60
 	containertype = /obj/structure/closet/crate/secure
-	containername = "\improper Chief medical officer equipment"
+	containername = "\improper Sister Hospitaller equipment"
 	access = access_cmo
 /*
 /decl/hierarchy/supply_pack/medical/doctorgear

@@ -48,7 +48,7 @@
 	return get_all_station_access()
 
 /datum/job/chief_engineer
-	title = "Chief Engineer"
+	title = "Magos"
 	supervisors = "the Captain"
 	department_flag = ENG
 	outfit_type = /decl/hierarchy/outfit/job/bearcat/chief_engineer
@@ -81,7 +81,7 @@
 
 /datum/job/engineer
 	title = "Junior Engineer"
-	supervisors = "Chief Engineer"
+	supervisors = "Magos"
 	total_positions = 2
 	spawn_positions = 2
 	hud_icon = "hudengineer"
@@ -123,7 +123,7 @@
 			qdel(eyegore)
 
 /decl/hierarchy/outfit/job/bearcat/chief_engineer
-	name = BEARCAT_OUTFIT_JOB_NAME("Chief Engineer")
+	name = BEARCAT_OUTFIT_JOB_NAME("Magos")
 	uniform = /obj/item/clothing/under/rank/chief_engineer
 	glasses = /obj/item/clothing/glasses/welding/superior
 	suit = /obj/item/clothing/suit/storage/hazardvest

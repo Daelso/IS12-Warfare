@@ -171,7 +171,7 @@
 	worn_state = "green_suit"
 
 /obj/item/clothing/under/gimmick/rank/head_of_personnel/suit
-	name = "head of personnel's suit"
+	name = "Seneschal's suit"
 	desc = "A teal suit and yellow necktie. An authoritative yet tacky ensemble."
 	icon_state = "teal_suit"
 	item_state = "g_suit"
@@ -341,7 +341,7 @@
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|ARMS
 
 /obj/item/clothing/under/dress/dress_hop
-	name = "head of personnel dress uniform"
+	name = "Seneschal dress uniform"
 	desc = "Feminine fashion for the style concious HoP."
 	icon_state = "dress_hop"
 	item_state = "b_suit"
@@ -459,15 +459,15 @@
 	worn_state = "captain_formal"
 
 /obj/item/clothing/under/hosformalmale
-	name = "head of security's formal uniform"
-	desc = "A male head of security's formal-wear, for special occasions."
+	name = "Commissar's formal uniform"
+	desc = "A male Commissar's formal-wear, for special occasions."
 	icon_state = "hos_formal_male"
 	item_state = "r_suit"
 	worn_state = "hos_formal_male"
 
 /obj/item/clothing/under/hosformalfem
-	name = "head of security's formal uniform"
-	desc = "A female head of security's formal-wear, for special occasions."
+	name = "Commissar's formal uniform"
+	desc = "A female Commissar's formal-wear, for special occasions."
 	icon_state = "hos_formal_fem"
 	item_state = "r_suit"
 	worn_state = "hos_formal_fem"

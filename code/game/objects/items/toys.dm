@@ -438,8 +438,8 @@
 	icon = 'icons/obj/toy.dmi'
 
 /obj/item/toy/figure/cmo
-	name = "Chief Medical Officer action figure"
-	desc = "A \"Space Life\" brand Chief Medical Officer action figure."
+	name = "Sister Hospitaller action figure"
+	desc = "A \"Space Life\" brand Sister Hospitaller action figure."
 	icon_state = "cmo"
 
 /obj/item/toy/figure/assistant
@@ -478,8 +478,8 @@
 	icon_state = "cargotech"
 
 /obj/item/toy/figure/ce
-	name = "Chief Engineer action figure"
-	desc = "A \"Space Life\" brand Chief Engineer action figure."
+	name = "Magos action figure"
+	desc = "A \"Space Life\" brand Magos action figure."
 	icon_state = "ce"
 
 /obj/item/toy/figure/chaplain
@@ -533,8 +533,8 @@
 	icon_state = "hop"
 
 /obj/item/toy/figure/hos
-	name = "Head of Security action figure"
-	desc = "A \"Space Life\" brand Head of Security action figure."
+	name = "Commissar action figure"
+	desc = "A \"Space Life\" brand Commissar action figure."
 	icon_state = "hos"
 
 /obj/item/toy/figure/qm

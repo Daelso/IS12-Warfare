@@ -29,7 +29,7 @@
 				qdel(medal)
 
 /decl/hierarchy/outfit/job/hop
-	name = OUTFIT_JOB_NAME("Head of Personnel")
+	name = OUTFIT_JOB_NAME("Seneschal")
 	uniform = /obj/item/clothing/under/rank/head_of_personnel_whimsy
 	head = /obj/item/clothing/head/caphat/hop
 	l_ear = /obj/item/device/radio/headset/heads/hop

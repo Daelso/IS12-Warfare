@@ -11,7 +11,7 @@
 	BACKPACK_OVERRIDE_SECURITY
 
 /decl/hierarchy/outfit/job/security/hos
-	name = OUTFIT_JOB_NAME("Head of security")
+	name = OUTFIT_JOB_NAME("Commissar")
 	l_ear = /obj/item/device/radio/headset/heads/hos
 	uniform = /obj/item/clothing/under/rank/head_of_security/jensen
 	suit = /obj/item/clothing/suit/armor/hos/jensen

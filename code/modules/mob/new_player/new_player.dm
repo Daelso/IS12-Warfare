@@ -440,7 +440,7 @@
 		"Team Blue"=list("color"="#76abb2", "jobs"=list()),
 		"Command"=list("color"="#76abb2", "jobs"=list()),
 		"Security"=list("color"="#b27676", "jobs"=list()),
-		"Upkeeper"=list("color"="#76abb2", "jobs"=list()),
+		"Adeptus Mechanicus"=list("color"="#76abb2", "jobs"=list()),
 		"Medical"=list("color"="#76abb2", "jobs"=list()),
 		"Supply"=list("color"="#76abb2", "jobs"=list()),
 		"Civillian"=list("color"="#76abb2", "jobs"=list()),

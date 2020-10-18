@@ -119,7 +119,7 @@
 "cJ" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1; layer = 2.4; level = 2},/obj/structure/foamedmetal,/turf/simulated/floor/plating,/area/ship/scrap/broken2)
 "cL" = (/obj/effect/floor_decal/industrial/warning{icon_state = "warning"; dir = 4},/obj/effect/floor_decal/corner/beige{icon_state = "corner_white"; dir = 9},/turf/simulated/floor/tiled,/area/ship/scrap/cargo/lower)
 "cM" = (/obj/machinery/alarm{dir = 4; icon_state = "alarm0"; pixel_x = -24},/obj/structure/closet,/obj/random/gloves,/obj/random/clothing,/obj/random/clothing,/obj/random/clothing,/turf/simulated/floor/tiled/dark,/area/ship/scrap/crew/dorms2)
-"cO" = (/obj/structure/curtain/open/bed,/obj/structure/bed/padded,/obj/effect/floor_decal/corner/beige{icon_state = "corner_white"; dir = 10},/obj/item/bedsheet/red,/obj/random_multi/single_item/captains_spare_id,/obj/effect/landmark/start{name = "Chief Engineer"},/turf/simulated/floor/tiled/dark,/area/ship/scrap/crew/dorms2)
+"cO" = (/obj/structure/curtain/open/bed,/obj/structure/bed/padded,/obj/effect/floor_decal/corner/beige{icon_state = "corner_white"; dir = 10},/obj/item/bedsheet/red,/obj/random_multi/single_item/captains_spare_id,/obj/effect/landmark/start{name = "Magos"},/turf/simulated/floor/tiled/dark,/area/ship/scrap/crew/dorms2)
 "cP" = (/turf/space,/area/ship/scrap/broken1)
 "cQ" = (/obj/structure/lattice,/obj/item/remains/mouse,/turf/space,/area/ship/scrap/broken1)
 "cR" = (/obj/structure/girder,/turf/simulated/floor/plating,/area/ship/scrap/broken1)

@@ -2,7 +2,7 @@
  * Contains:
  *		Security
  *		Detective
- *		Head of Security
+ *		Commissar
  */
 
 /*
@@ -119,11 +119,11 @@
 
 
 /*
- * Head of Security
+ * Commissar
  */
 /obj/item/clothing/under/rank/head_of_security
-	desc = "It's a jumpsuit worn by those few with the dedication to achieve the position of \"Head of Security\". It has additional armor to protect the wearer."
-	name = "head of security's jumpsuit"
+	desc = "It's a jumpsuit worn by those few with the dedication to achieve the position of \"Commissar\". It has additional armor to protect the wearer."
+	name = "Commissar's jumpsuit"
 	icon_state = "hos"
 	item_state = "r_suit"
 	worn_state = "hosred"
@@ -136,8 +136,8 @@
 	worn_state = "hos_corporate"
 
 /obj/item/clothing/head/HoS
-	name = "Head of Security Hat"
-	desc = "The hat of the Head of Security. For showing the officers who's in charge."
+	name = "Commissar Hat"
+	desc = "The hat of the Commissar. For showing the officers who's in charge."
 	icon_state = "hoscap"
 	body_parts_covered = 0
 	siemens_coefficient = 0.8
@@ -162,7 +162,7 @@
 //Jensen cosplay gear
 /obj/item/clothing/under/rank/head_of_security/jensen
 	desc = "You never asked for anything that stylish."
-	name = "head of security's jumpsuit"
+	name = "Commissar's jumpsuit"
 	icon_state = "jensen"
 	item_state = "jensen"
 	worn_state = "jensen"
@@ -188,8 +188,8 @@
 	worn_state = "officerblueclothes"
 
 /obj/item/clothing/under/rank/head_of_security/navyblue
-	desc = "The insignia on this uniform tells you that this uniform belongs to the Head of Security."
-	name = "head of security's uniform"
+	desc = "The insignia on this uniform tells you that this uniform belongs to the Commissar."
+	name = "Commissar's uniform"
 	icon_state = "hosblueclothes"
 	item_state = "ba_suit"
 	worn_state = "hosblueclothes"

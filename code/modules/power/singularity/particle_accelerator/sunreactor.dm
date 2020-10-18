@@ -469,7 +469,7 @@
 			var/mob/living/carbon/human/H = A
 			if(H.mind)
 
-				if((H.mind.assigned_role == "Station Engineer") || (H.mind.assigned_role == "Chief Engineer") )
+				if((H.mind.assigned_role == "Station Engineer") || (H.mind.assigned_role == "Magos") )
 					gain = 100
 
 				if(H.mind.assigned_role == "Clown")

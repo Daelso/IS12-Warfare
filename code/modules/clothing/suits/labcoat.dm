@@ -13,7 +13,7 @@
 	restricted_accessory_slots = list(ACCESSORY_SLOT_ARMBAND)
 
 /obj/item/clothing/suit/storage/toggle/labcoat/cmo
-	name = "chief medical officer's labcoat"
+	name = "Sister Hospitaller's labcoat"
 	desc = "Bluer than the standard model."
 	icon_state = "labcoat_cmo_open"
 	//item_state = "labcoat_cmo"
@@ -21,7 +21,7 @@
 	icon_closed = "labcoat_cmo"
 
 /obj/item/clothing/suit/storage/toggle/labcoat/cmoalt
-	name = "chief medical officer labcoat"
+	name = "Sister Hospitaller labcoat"
 	desc = "A labcoat with command blue highlights."
 	icon_state = "labcoat_cmoalt_open"
 	icon_open = "labcoat_cmoalt_open"

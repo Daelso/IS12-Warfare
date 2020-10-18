@@ -11,7 +11,7 @@
 	BACKPACK_OVERRIDE_ENGINEERING
 
 /decl/hierarchy/outfit/job/engineering/chief_engineer
-	name = OUTFIT_JOB_NAME("Chief engineer")
+	name = OUTFIT_JOB_NAME("Magos")
 	head = /obj/item/clothing/head/hardhat/white
 	uniform = /obj/item/clothing/under/rank/chief_engineer
 	l_ear = /obj/item/device/radio/headset/heads/ce

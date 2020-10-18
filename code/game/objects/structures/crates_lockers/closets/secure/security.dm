@@ -30,7 +30,7 @@
 	)
 
 /obj/structure/closet/secure_closet/hop
-	name = "head of personnel's locker"
+	name = "Seneschal's locker"
 	req_access = list(access_hop)
 	icon_state = "hopsecure1"
 	icon_closed = "hopsecure"
@@ -51,7 +51,7 @@
 	)
 
 /obj/structure/closet/secure_closet/hop2
-	name = "head of personnel's attire"
+	name = "Seneschal's attire"
 	req_access = list(access_hop)
 	icon_state = "hopsecure1"
 	icon_closed = "hopsecure"
@@ -77,7 +77,7 @@
 	)
 
 /obj/structure/closet/secure_closet/hos
-	name = "head of security's locker"
+	name = "Commissar's locker"
 	req_access = list(access_hos)
 	icon_state = "hossecure1"
 	icon_closed = "hossecure"

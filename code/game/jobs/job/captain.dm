@@ -28,7 +28,7 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	return get_all_station_access()
 
 /datum/job/hop
-	title = "Head of Personnel"
+	title = "Seneschal"
 	head_position = 1
 	department_flag = COM|CIV
 

@@ -247,7 +247,7 @@
 /var/const/access_cmo = 40
 /datum/access/cmo
 	id = access_cmo
-	desc = "Chief Medical Officer"
+	desc = "Sister Hospitaller"
 	region = ACCESS_REGION_COMMAND
 
 /var/const/access_qm = 41
@@ -321,19 +321,19 @@
 /var/const/access_ce = 56
 /datum/access/ce
 	id = access_ce
-	desc = "Chief Engineer"
+	desc = "Magos"
 	region = ACCESS_REGION_ENGINEERING
 
 /var/const/access_hop = 57
 /datum/access/hop
 	id = access_hop
-	desc = "Head of Personnel"
+	desc = "Seneschal"
 	region = ACCESS_REGION_COMMAND
 
 /var/const/access_hos = 58
 /datum/access/hos
 	id = access_hos
-	desc = "Head of Security"
+	desc = "Commissar"
 	region = ACCESS_REGION_SECURITY
 
 /var/const/access_RC_announce = 59 //Request console announcements

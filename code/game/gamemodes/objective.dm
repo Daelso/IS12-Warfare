@@ -425,8 +425,8 @@ datum/objective/nuclear
 		//"a sample of slime extract" = /obj/item/slime_extract,
 		"a piece of corgi meat" = /obj/item/reagent_containers/food/snacks/meat/corgi,
 		//"a research director's jumpsuit" = /obj/item/clothing/under/rank/research_director,
-		//"a chief engineer's jumpsuit" = /obj/item/clothing/under/rank/chief_engineer,
-		//"a chief medical officer's jumpsuit" = /obj/item/clothing/under/rank/chief_medical_officer,
+		//"a Magos's jumpsuit" = /obj/item/clothing/under/rank/chief_engineer,
+		//"a Sister Hospitaller's jumpsuit" = /obj/item/clothing/under/rank/chief_medical_officer,
 		"the headpeackeepers's uniform" = /obj/item/clothing/under/rank/head_of_security,
 		"the overseers's uniform" = /obj/item/clothing/under/rank/head_of_personnel,
 		"the hypospray" = /obj/item/reagent_containers/hypospray,
@@ -567,7 +567,7 @@ datum/objective/heist
 
 datum/objective/heist/kidnap
 	choose_target()
-		var/list/roles = list("Chief Engineer","Research Director","Roboticist","Chemist","Engineer")
+		var/list/roles = list("Magos","Research Director","Roboticist","Chemist","Engineer")
 		var/list/possible_targets = list()
 		var/list/priority_targets = list()
 

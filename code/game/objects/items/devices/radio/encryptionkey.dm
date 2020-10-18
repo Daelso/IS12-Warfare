@@ -201,22 +201,22 @@
 	channels = list("Science" = 1, "Command" = 1)
 
 /obj/item/device/encryptionkey/heads/hos
-	name = "head of security's encryption key"
+	name = "Commissar's encryption key"
 	icon_state = "hos_cypherkey"
 	channels = list("Security" = 1, "Command" = 1)
 
 /obj/item/device/encryptionkey/heads/ce
-	name = "chief engineer's encryption key"
+	name = "Magos's encryption key"
 	icon_state = "ce_cypherkey"
 	channels = list("Engineering" = 1, "Command" = 1)
 
 /obj/item/device/encryptionkey/heads/cmo
-	name = "chief medical officer's encryption key"
+	name = "Sister Hospitaller's encryption key"
 	icon_state = "cmo_cypherkey"
 	channels = list("Medical" = 1, "Command" = 1)
 
 /obj/item/device/encryptionkey/heads/hop
-	name = "head of personnel's encryption key"
+	name = "Seneschal's encryption key"
 	icon_state = "hop_cypherkey"
 	channels = list("Supply" = 1, "Service" = 1, "Command" = 1, "Security" = 0)
 
