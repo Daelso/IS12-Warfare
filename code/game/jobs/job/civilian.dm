@@ -5,7 +5,7 @@
 	department_flag = SRV
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the Seneschal"
 	selection_color = "#515151"
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	minimal_access = list(access_bar)
@@ -17,7 +17,7 @@
 	department_flag = SRV
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the head of personnel"
+	supervisors = "the Seneschal"
 	selection_color = "#515151"
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	minimal_access = list(access_kitchen)
@@ -25,12 +25,12 @@
 	outfit_type = /decl/hierarchy/outfit/job/service/chef
 
 /datum/job/hydro
-	title = "Botanic"
+	title = "Farmer"
 	department = "Service"
 	department_flag = SRV
 	total_positions = 2
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the Seneschal"
 	selection_color = "#515151"
 	access = list(access_hydroponics, access_bar, access_kitchen)
 	minimal_access = list(access_hydroponics)
@@ -39,12 +39,12 @@
 
 //Cargo
 /datum/job/qm
-	title = "Quartermaster"
+	title = "Munitorum Priest"
 	department = "Supply"
 	department_flag = SUP
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the Seneschal"
 	selection_color = "#515151"
 	economic_modifier = 5
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
@@ -54,12 +54,12 @@
 	outfit_type = /decl/hierarchy/outfit/job/cargo/qm
 
 /datum/job/cargo_tech
-	title = "Cargo Technician"
+	title = "Munitorum Adept"
 	department = "Supply"
 	department_flag = SUP
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the quartermaster and the head of personnel"
+	supervisors = "the Munitorum Priest and the Seneschal"
 	selection_color = "#515151"
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
 	minimal_access = list(access_maint_tunnels, access_cargo, access_cargo_bot, access_mailsorting)
@@ -71,12 +71,12 @@
 	department_flag = SUP
 	total_positions = 3
 	spawn_positions = 3
-	supervisors = "the quartermaster and the head of personnel"
+	supervisors = "the Munitorum Priest and the Seneschal"
 	selection_color = "#515151"
 	economic_modifier = 5
 	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_qm, access_mining, access_mining_station)
 	minimal_access = list(access_mining, access_mining_station, access_mailsorting)
-//	alt_titles = list("Drill Technician","Prospector")
+	alt_titles = list("Drill Technician","Prospector")
 	outfit_type = /decl/hierarchy/outfit/job/cargo/mining
 
 /datum/job/janitor
@@ -85,25 +85,25 @@
 	department_flag = SRV
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the Seneschal"
 	selection_color = "#515151"
 	access = list(access_janitor, access_maint_tunnels, access_engine, access_research, access_sec_doors, access_medical)
 	minimal_access = list(access_janitor, access_maint_tunnels, access_engine, access_research, access_sec_doors, access_medical)
-//	alt_titles = list("Custodian","Sanitation Technician")
+	alt_titles = list("Custodian","Sanitation Technician")
 	outfit_type = /decl/hierarchy/outfit/job/service/janitor
 
 //More or less assistants
 /datum/job/librarian
-	title = "Librarian"
+	title = "Record Keeper"
 	department = "Civilian"
 	department_flag = CIV
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the head of personnel"
+	supervisors = "the Seneschal"
 	selection_color = "#515151"
 	access = list(access_library, access_maint_tunnels)
 	minimal_access = list(access_library)
-//	alt_titles = list("Journalist")
+	alt_titles = list("Journalist")
 	outfit_type = /decl/hierarchy/outfit/job/librarian
 
 /datum/job/inquisitor
@@ -112,7 +112,7 @@
 	department_flag = SPT
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "company officials and Corporate Regulations"
+	supervisors = "The Golden Throne"
 	selection_color = "#515151"
 	economic_modifier = 7
 	access = list(access_lawyer, access_sec_doors, access_maint_tunnels, access_heads)

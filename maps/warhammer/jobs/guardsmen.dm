@@ -3,7 +3,7 @@
 	social_class = SOCIAL_CLASS_MIN
 	outfit_type = /decl/hierarchy/outfit/job/redsoldier/soldier //will need to be replaced eventually - wel
 	selection_color = "#b27676"
-
+	department_flag = GRD
 	auto_rifle_skill = 10 //This is leftover from coldfare, but we could go back to that one day so better not to mess with it.
 	semi_rifle_skill = 10
 	sniper_skill = 3
@@ -30,6 +30,7 @@
 	social_class = SOCIAL_CLASS_MED
 	outfit_type = /decl/hierarchy/outfit/job/redsoldier/sgt
 	can_be_in_squad = FALSE //They have snowflake shit for squads.
+	department_flag = GRD
 
 	auto_rifle_skill = 10
 	semi_rifle_skill = 10
@@ -54,6 +55,7 @@
 	can_be_in_squad = FALSE
 	sniper_skill = 10
 	open_when_dead = TRUE
+	department_flag = GRD
 
 	announced = FALSE
 
@@ -86,6 +88,7 @@
 	smg_skill = 3
 	can_be_in_squad = FALSE
 	open_when_dead = TRUE
+	department_flag = GRD
 
 	announced = FALSE
 

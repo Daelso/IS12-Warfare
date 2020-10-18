@@ -445,6 +445,7 @@
 		"Supply"=list("color"="#76abb2", "jobs"=list()),
 		"Civillian"=list("color"="#76abb2", "jobs"=list()),
 		"Misc"=list("color"="Grey", "jobs"=list())
+		"Imperial Guard"=list("color"="#663300", "jobs"=list())
 		)
 
 	for(var/datum/job/job in SSjobs.occupations)
@@ -467,8 +468,11 @@
 			jobcats["Upkeeper"]["jobs"] += job
 		else if(job.department_flag & CIV)
 			jobcats["Civillian"]["jobs"] += job
+		else if(job.department_flag & GRD)
+			jobcats["Imperial Guard"]["jobs"] += job
 		else
 			jobcats["Misc"]["jobs"] += job
+
 
 	for(var/cat in jobcats)
 		if(!LAZYLEN(jobcats[cat]["jobs"])) // if there's no jobs, don't show an empty fieldset

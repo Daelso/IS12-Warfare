@@ -1,12 +1,12 @@
 /datum/job/chief_engineer
-	title = "Chief Engineer"
+	title = "Magos"
 	head_position = 1
 	department = "Engineering"
 	department_flag = ENG|COM
 
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the captain"
+	supervisors = "the Adeptus Mechanicus"
 	selection_color = "#7f6e2c"
 	req_admin_notify = 1
 	economic_modifier = 10
@@ -26,13 +26,13 @@
 	outfit_type = /decl/hierarchy/outfit/job/engineering/chief_engineer
 
 /datum/job/engineer
-	title = "Engineer"
+	title = "Tech Priest"
 	department = "Engineering"
 	department_flag = ENG
 
 	total_positions = 8
 	spawn_positions = 7
-	supervisors = "the chief engineer"
+	supervisors = "the Magos"
 	selection_color = "#5b4d20"
 	economic_modifier = 5
 	minimal_player_age = 7
@@ -41,7 +41,7 @@
 	//alt_titles = list("Maintenance Technician","Engine Technician","Electrician",
 	//	"Atmospheric Technician" = /decl/hierarchy/outfit/job/engineering/atmos)
 	outfit_type = /decl/hierarchy/outfit/job/engineering/engineer
-
+/*
 /datum/job/atmos
 	title = "Atmospheric Technician"
 	department = "Engineering"
@@ -56,3 +56,4 @@
 	access = list(access_eva, access_engine, access_engine_equip, access_tech_storage, access_maint_tunnels, access_external_airlocks, access_construction, access_atmospherics, access_emergency_storage)
 	minimal_access = list(access_eva, access_engine, access_engine_equip, access_tech_storage, access_maint_tunnels, access_external_airlocks, access_construction, access_atmospherics, access_emergency_storage)
 	outfit_type = /decl/hierarchy/outfit/job/engineering/atmos
+*/ //we dont use atmos here
