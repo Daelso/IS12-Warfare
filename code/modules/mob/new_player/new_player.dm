@@ -439,13 +439,12 @@
 		"Team Red"=list("color"="#b27676", "jobs"=list()),
 		"Team Blue"=list("color"="#76abb2", "jobs"=list()),
 		"Command"=list("color"="#76abb2", "jobs"=list()),
-		"Security"=list("color"="#b27676", "jobs"=list()),
+		"Imperial Guard"=list("color"="#b27676", "jobs"=list()),
 		"Adeptus Mechanicus"=list("color"="#76abb2", "jobs"=list()),
 		"Medical"=list("color"="#76abb2", "jobs"=list()),
 		"Supply"=list("color"="#76abb2", "jobs"=list()),
 		"Civillian"=list("color"="#76abb2", "jobs"=list()),
 		"Misc"=list("color"="Grey", "jobs"=list())
-		"Imperial Guard"=list("color"="#663300", "jobs"=list())
 		)
 
 	for(var/datum/job/job in SSjobs.occupations)
@@ -459,17 +458,15 @@
 		else if(job.department_flag & COM)
 			jobcats["Command"]["jobs"] += job
 		else if(job.department_flag & SEC)
-			jobcats["Security"]["jobs"] += job
+			jobcats["Imperial Guard"]["jobs"] += job
 		else if(job.department_flag & ENG)
-			jobcats["Upkeeper"]["jobs"] += job
+			jobcats["Adeptus Mechanicus"]["jobs"] += job
 		else if(job.department_flag & MED)
 			jobcats["Medical"]["jobs"] += job
 		else if(job.department_flag & SUP)
-			jobcats["Upkeeper"]["jobs"] += job
+			jobcats["Adeptus Mechanicus"]["jobs"] += job
 		else if(job.department_flag & CIV)
 			jobcats["Civillian"]["jobs"] += job
-		else if(job.department_flag & GRD)
-			jobcats["Imperial Guard"]["jobs"] += job
 		else
 			jobcats["Misc"]["jobs"] += job
 
